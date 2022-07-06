@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("../css/fontawesome-all.min.css");
+
+html {
+    background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-repeat: repeat, no-repeat;
+		background-size: auto, 100% 100%;
+		background-attachment: fixed;
+		overflow-y: scroll;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 140px;
+    margin-left: 225px;
+    max-width: 780px;
+    height: 350px;
+    padding: 2em 2em 4em;
+}
+
+strong, b, h1, h2, h3, h4, h5, h6 {
+		font-weight: 700;
+		color: darkslategrey;
+	}
+
+	h1 {
+		font-size: 2.4em;
+        display: inline-block
+        color: darkslategrey
+		letter-spacing: -0.015em;
+        font-family: 'Lato', sans-serif;
+        
+	}
+
+	h2 {
+		font-size: 2.0em;
+		letter-spacing: -0.015em;
+	}
+
+	h3, h4, h5, h6 {
+		font-size: 1.25em;
+		letter-spacing: -0.015em;
+	}
+
+header {
+		margin: 0 0 1.5em 0;
+	}
+
+		header > p {
+			margin: 0.5em 0 0 0;
+			color: darkslategrey;
+            font-family: 'Lato', sans-serif;
+		}
+
+.p2 {
+    margin: 0.5em 0 0 0;
+    color: darkgrey;
+    font-family: 'Lato', sans-serif;
+}
+
+section.imageDiv {
+  margin: 40px 20px;    
+    padding-top: 20px;
+}   
+
+.image {
+  margin-top: 40px;    
+	display: inline-block;
+}
+
+header {
+    margin: 0 0 1em 0;
+}
+
+a {
+    color: darkslategray;
+    text-decoration: none;
+    
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+        display: none;
+    }
+
+img {
+        animation: colorize 0.5s cubic-bezier(0, 0, .78, .36) 1;
+        background: transparent;
+        display: inline-block;
+        margin: 1.3em auto;
+        max-width: 100%;
+        max-height: 100%;
+}
+
+.container {
+    float: right;
+    max-width: 340px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    
+    }
+}
+    
+.image {
+      margin-top: 40px;    
+		display: inline-block;
+}
+
+.image img {
+			display: block;
+			width: 100%;
+}
+
+.image.fit {
+			display: inline-block;
+			width: 40%;
+}
+
+.image.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+}
+
+.image.left {
+			float: left;
+			margin: 0 2em 2em 0;
+}
+
+.image.centered {
+			display: block;
+			margin: 0 0 2em 0;
+}
+
+.image.centered img {
+    margin: 0 auto;
+    width: auto;
+}
+    
+    
+
+}
